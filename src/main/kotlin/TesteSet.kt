@@ -11,8 +11,10 @@ fun main() {
 
     println("----------------------------------")
     val funcionarios3 = setOf(joao,pedro,maria)
-    val resultSubtract = funcionarios1.subtract(funcionarios2)
+    val resultSubtract = funcionarios3.subtract(funcionarios2)
     resultSubtract.forEach{println(it)}
 
-
+    println("----------------------------------")
+    val resultIntersect = funcionarios3.intersect(funcionarios2)
+    resultIntersect.forEach{println(it)}
 }
